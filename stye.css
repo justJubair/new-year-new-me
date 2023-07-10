@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* banner related styles */
 .banner-container {
     /* padding: 15em 3em 15em 15em; */
     background-image: url('../images/banner/banner3.png');
@@ -41,12 +42,16 @@
     border-radius: 10px;
     border: none;
 }
+/* banner ends */
 
+
+/* falilure section related styles */
 .failure-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 5em;
+    margin-bottom: 2em;
 }
 
 .failure-item {
@@ -71,4 +76,20 @@
 .failure-item li {
     color: #444343;
     list-style-type: circle;
+}
+/* failure ends */
+
+
+/* My plans section related styles */
+.myplans-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.my-plan-title {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 1em;
 }
