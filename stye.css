@@ -7,7 +7,7 @@
 /* banner related styles */
 .banner-container {
     /* padding: 15em 3em 15em 15em; */
-    background-image: url('../images/banner/banner3.png');
+    background-image: url('images/banner/banner3.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
